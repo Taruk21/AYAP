@@ -1,4 +1,4 @@
-# 🌕 AYAP - Otonom Yüzey Navigasyon ve Sensör Füzyonu Simülasyonu
+# 🌕 AYAP
 
 ![AYAP Architecture](https://img.shields.io/badge/Status-Active-brightgreen.svg) ![Tech Stack](https://img.shields.io/badge/Stack-Python_|_Flask_|_Three.js-blue.svg) ![Algorithm](https://img.shields.io/badge/Algorithm-D*_Lite_+_APF-orange.svg)
 
