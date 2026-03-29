@@ -45,6 +45,3 @@ Gereksinimler: **Python 3.8+**
 4. Tarayıcınızda [http://localhost:5000](http://localhost:5000) adresine giderek AYAP Görev Kontrol Merkezine giriş yapın.
 
 ---
-
-
-*Cevap:* Hayır. Sistem "Hybrid Fallback" mekanizmasıyla donatılmıştır. Eğer Timeout veya SSL kısıtlaması nedeniyle NASA sunucusundan gerçek harita indirilemezse, sistem milisaniyeler içinde prosedürel Perlin Noise algoritmalarıyla "Otonom Sentetik Harita" jeneratörünü devreye sokar. Görev kesintiye uğramaz.
