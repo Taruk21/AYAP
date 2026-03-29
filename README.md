@@ -46,10 +46,5 @@ Gereksinimler: **Python 3.8+**
 
 ---
 
-## 4. JÜRİ VE SAVUNMA NOTLARI (BİLİNMESİ GEREKENLER)
 
-**Soru: Otonom sürüşte neden Derin Öğrenme (Deep Learning) yerine Deterministik (A*/D* Lite vb.) algoritmalar seçtiniz?**
-*Cevap:* Derin öğrenme "kara kutu" gibidir, alınan kararların kanıtlanabilir matematiği zayıftır. Üstelik GPU bazlıdır ve uzayda yüksek işlemci kullanımı=ciddi enerji israfı ve radyasyon kırılganlığı demektir. D* Lite algoritması ise hem düşük donanımla (CPU) saniyeler içinde binlerce düğümü çözebilir hem de uçuş/görev güvenliği prosedürlerinde tamamen **ispatlanabilir rasyonel adımlar** atar.
-
-**Soru: NASA DEM entegrasyonu sunucu bulamazsa simülasyon çöker mi?**
 *Cevap:* Hayır. Sistem "Hybrid Fallback" mekanizmasıyla donatılmıştır. Eğer Timeout veya SSL kısıtlaması nedeniyle NASA sunucusundan gerçek harita indirilemezse, sistem milisaniyeler içinde prosedürel Perlin Noise algoritmalarıyla "Otonom Sentetik Harita" jeneratörünü devreye sokar. Görev kesintiye uğramaz.
